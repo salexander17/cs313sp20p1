@@ -28,7 +28,7 @@ public class TestHelloWorld {
 
   @Test
   public void getMessage2() { // this test is broken - fix it!
-    assertNull(fixture);
+    assertNotNull(fixture);
     assertEquals("hello world", fixture.getMessage());
   }
 
